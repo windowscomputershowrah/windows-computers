@@ -1,196 +1,133 @@
-<!DOCTYPE html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+body{
+font-family:Arial, sans-serif;
+line-height:1.6;
+color:#333;
+background:#f8f9fa;
+}
 
-<title>Windows Computers | Your Trusted Windows Partner</title>
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
 
-<meta name="description" content="Laptop Sales, Desktop Sales, CCTV Installation, Printer Sales, Computer Repair, Networking, Accessories, Software Installation and ERP Software Solutions in Howrah.">
+header{
+background:linear-gradient(135deg,#0b3c5d,#1f6aa5);
+color:#fff;
+text-align:center;
+padding:60px 20px;
+}
 
-<link rel="stylesheet" href="style.css">
-</head>
+.logo{
+max-width:220px;
+margin-bottom:15px;
+}
 
-<body>
+h1{
+font-size:42px;
+margin-bottom:10px;
+}
 
-<header>
-    <div class="container">
+.tagline{
+font-size:20px;
+margin-bottom:20px;
+}
 
-```
-    <img src="logo.png" class="logo" alt="Windows Computers">
+.btn{
+display:inline-block;
+padding:12px 25px;
+margin:8px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+background:#fff;
+color:#0b3c5d;
+transition:.3s;
+}
 
-    <h1>Windows Computers</h1>
+.btn:hover{
+transform:scale(1.05);
+}
 
-    <p class="tagline">Your Trusted Windows Partner</p>
+.whatsapp{
+background:#25D366;
+color:#fff;
+}
 
-    <a href="tel:+917001237743" class="btn">
-        📞 Call Now
-    </a>
+section{
+padding:60px 0;
+}
 
-    <a href="https://wa.me/917001237743" class="btn whatsapp" target="_blank">
-        💬 WhatsApp
-    </a>
+h2{
+text-align:center;
+margin-bottom:25px;
+}
 
-</div>
-```
+.about,
+.contact{
+background:#fff;
+}
 
-</header>
+.about p,
+.contact p{
+text-align:center;
+margin-bottom:15px;
+}
 
-<section class="about">
-    <div class="container">
+.services{
+background:#f4f6f8;
+}
 
-```
-    <h2>About Us</h2>
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
 
-    <p>
-        Windows Computers is a trusted technology solutions provider based in Howrah.
-        We specialize in Laptop & Desktop Sales, CCTV Installation, Printer Solutions,
-        Networking, Software Installation and Computer Repair Services.
-    </p>
+.card{
+background:#fff;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+transition:.3s;
+}
 
-</div>
-```
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
 
-</section>
+footer{
+background:#111;
+color:#fff;
+text-align:center;
+padding:20px;
+}
 
-<section class="services">
-    <div class="container">
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+color:#fff;
+border-radius:50%;
+text-align:center;
+line-height:60px;
+font-size:30px;
+text-decoration:none;
+z-index:99999;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
 
-```
-    <h2>Our Services</h2>
-
-    <div class="grid">
-        <div class="card">💻 Laptop Sales</div>
-        <div class="card">🖥 Desktop Sales</div>
-        <div class="card">📹 CCTV Installation</div>
-        <div class="card">🖨 Printer Sales & Service</div>
-        <div class="card">🔧 Computer Repair</div>
-        <div class="card">🌐 Networking Solutions</div>
-        <div class="card">⌨ Accessories</div>
-        <div class="card">⚙ Software Installation</div>
-        <div class="card">📊 Accounting & ERP Software</div>
-    </div>
-
-</div>
-```
-
-</section>
-
-<section class="contact">
-    <div class="container">
-
-```
-    <h2>Contact Us</h2>
-
-    <p><strong>Phone:</strong> 7001237743</p>
-
-    <p>
-        <strong>Email:</strong><br>
-        windowscomputershowrah@gmail.com<br>
-        tanmoy9193@gmail.com
-    </p>
-
-    <p>
-        <strong>Address:</strong><br>
-        52, Brindaban Mullick Lane,<br>
-        Kadamtala, Bantra,<br>
-        Howrah - 711101
-    </p>
-
-    <p>
-        <strong>Location:</strong><br>
-        H8Q7+9W Howrah, West Bengal
-    </p>
-
-    <a href="https://maps.app.goo.gl/kPSPrLH93RjBVUmUA"
-       target="_blank"
-       class="btn">
-       📍 Get Directions
-    </a>
-
-</div>
-```
-
-</section>
-
-<section class="contact">
-    <div class="container">
-
-```
-    <h2>Business Hours</h2>
-
-    <p>Monday - Saturday : 10:00 AM - 9:00 PM</p>
-    <p>Sunday : 11:00 AM - 7:00 PM</p>
-
-</div>
-```
-
-</section>
-
-<section class="services">
-    <div class="container">
-
-```
-    <h2>Why Choose Windows Computers?</h2>
-
-    <div class="grid">
-        <div class="card">✔ Genuine Products</div>
-        <div class="card">✔ Affordable Pricing</div>
-        <div class="card">✔ Expert Technical Support</div>
-        <div class="card">✔ CCTV & Networking Solutions</div>
-        <div class="card">✔ Fast Repair Service</div>
-        <div class="card">✔ Trusted Local Business</div>
-    </div>
-
-</div>
-```
-
-</section>
-
-<section class="contact">
-    <div class="container">
-
-```
-    <h2>Privacy Policy</h2>
-
-    <p>
-        Windows Computers respects your privacy.
-        Customer information is used only for support and business communication.
-        We do not sell or share customer information with third parties.
-    </p>
-
-</div>
-```
-
-</section>
-
-<section class="contact">
-    <div class="container">
-
-```
-    <h2>Terms & Conditions</h2>
-
-    <p>
-        Product availability, pricing and service charges may change without notice.
-        Warranty terms are subject to manufacturer policies.
-    </p>
-
-</div>
-```
-
-</section>
-
-<footer>
-    <p>
-        © 2026 Windows Computers. All Rights Reserved.
-    </p>
-</footer>
-
-<a href="https://wa.me/917001237743"
-class="whatsapp-float"
-target="_blank">
-💬 </a>
-
-</body>
-</html>
+.whatsapp-float:hover{
+transform:scale(1.1);
+}
